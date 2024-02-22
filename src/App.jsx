@@ -58,15 +58,6 @@ const App = () => {
   }
   return (
     <main>
-      {/* {!isLoading &&
-        tours.map((tour) => {
-          const { id, name, info, image, price } = tour;
-          return (
-            <div key={id}>
-              <h2>{name}</h2>
-            </div>
-          );
-        })} */}
       <Tours tours={tours} removeTour={removeTour} />
     </main>
   );
